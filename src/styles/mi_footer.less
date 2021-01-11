@@ -1,0 +1,207 @@
+@charset 'utf-8';
+
+.site-footer{
+    .footer-service{
+        padding: 27px 0;
+        border-bottom: 1px solid #e0e0e0;
+        >.list-service{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            >li:first-child {
+                border-left: 0;
+            }
+            >li{
+                float: left;
+                width: 19.8%;
+                height: 25px;
+                border-left: 1px solid #e0e0e0;
+                font-size: 16px;
+                line-height: 25px;
+                text-align: center;
+                >a{
+                    color: #616161;
+                    -webkit-transition: color .2s;
+                    transition: color .2s;
+                    >em{
+                        margin-right: 6px;
+                        font-size: 24px;
+                        line-height: 24px;
+                        vertical-align: -4px;
+                    }
+                }
+            }
+        }
+    }
+    .footer-links{
+        padding: 40px 0;
+        >.col-links{
+            float: left;
+            width: 160px;
+            margin: 0;
+            >dt{
+                margin: -1px 0 26px;
+                font-size: 14px;
+                line-height: 1.25;
+                color: #424242;
+                font-weight: unset;
+            }
+            >dd{
+                margin: 10px 0 0;
+                font-size: 12px;
+                >a{
+                    color: #757575;
+                }
+            }
+        }
+        >.col-contact{
+            float: right;
+            width: 251px;
+            border-left: 1px solid #e0e0e0;
+            text-align: center;
+            color: #616161;
+            >p{
+                margin: 0 0 5px 0;
+                font-size: 12px;
+            }
+            >.phone{
+                font-size: 22px;
+                line-height: 1;
+                color: #ff6700;
+            }
+            >.btn-line-primary{
+                border-color: #ff6700;
+                background: #fff;
+                color: #ff6700;
+                width: 118px;
+                height: 28px;
+                font-size: 12px;
+                line-height: 28px;
+                display: inline-block;
+                padding: 0;
+                margin: 0;
+                border: 1px solid #b0b0b0;
+                text-align: center;
+                cursor: pointer;
+                transition: all .4s;
+            }
+            >.follow{
+                font-size: 12px;
+                margin-top: 10px;
+                position: relative;
+                >a{
+                    width: 24px;
+                    height: 24px;
+                    display: inline-block;
+                    vertical-align: middle;
+                    margin-left: 6px;
+                    margin-top: -3px;
+                }
+                >.wb{
+                    background: url(https://cdn.cnbj1.fds.api.mi-img.com/staticsfile/global/wb.png) 50% 0 no-repeat;
+                    background-size: cover;
+                }
+                >.wx{
+                    background: url(https://cdn.cnbj1.fds.api.mi-img.com/staticsfile/global/wx.png) 50% 0 no-repeat;
+                    background-size: cover;
+                }
+                >img{
+                    width: 126px;
+                    height: 126px;
+                    z-index: 2;
+                    position: absolute;
+                    top: 20px;
+                    left: 100px;
+                }
+            }
+        }
+    }
+}
+
+.site-info{
+    padding: 30px 0;
+    font-size: 12px;
+    background: #fafafa;
+    >.container{
+        position: relative;
+        >.logo{
+            width: 57px;
+            height: 57px;
+            margin-right: 10px;
+            background: url(https://s02.mifile.cn/assets/static/image/logo-footer.png) no-repeat 50% 50%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            text-align: left;
+            text-indent: -9999em;
+            overflow: hidden;
+        }
+        >.info-text{
+            color: #b0b0b0;
+            padding-left: 67px;
+            >.sites{
+                margin: 0;
+                line-height: 18px;
+                >a{
+                    color: #757575;
+                }
+                >.sep{
+                    margin: 0;
+                    font-family: sans-serif;
+                }
+            }
+            >p{
+                margin: 0;
+                line-height: 18px;
+                >a{
+                    color: #b0b0b0;
+                }
+    
+            }
+        }
+        >.info-links{
+            height: 28px;
+            margin: 4px 0 15px;
+            padding-left: 67px;
+            >a{
+                display: inline-block;
+
+                >img{
+                    width: auto;
+                    height: 28px;
+                    margin-left: 0;
+                    vertical-align: baseline;
+                }
+            }
+            >.safe-auth{
+                width: 150px;
+                height: 40px;
+                overflow: hidden;
+                margin-left: 5px;
+                position: relative;
+                >img{
+                    height: 40px;
+                    display: inline-block;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    background: #fff;
+                }
+                >.img1{
+                    opacity: 1;
+                }
+                >.img2{
+                    opacity: 0;
+                }
+            }
+        }
+    }
+    >.slogan{
+        clear: both;
+        margin: 30px auto 0;
+        width: 100%;
+        height: 19px;
+        background: url(https://cdn.cnbj1.fds.api.mi-img.com/staticsfile/global/slogan2020.png) no-repeat center 0;
+    }
+}

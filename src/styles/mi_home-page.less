@@ -1,0 +1,330 @@
+@charset 'utf-8';
+
+.header{
+    >.topbar-banner-Wrapper{
+        >a{
+            display: block;
+            text-decoration: none;
+            width: 100%;
+            height: 120px;
+            background: url(https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/bb3c06a430689ba2357dd7d1fbfa6bab.jpg?w=5120&h=240);
+            background-position: 50%;
+            background-repeat: no-repeat;
+            background-size: auto 120px;
+        }
+    }
+    >.site-topbar{
+        background-color: #333333;
+        position: relative;
+        z-index: 30;
+        height: 40px;
+        font-size: 12px;
+        color: #b0b0b0;
+        >.container{
+            >.topbar-nav{
+                float: left;
+                height: 40px;
+                line-height: 40px;
+                >a{
+                    color: #b0b0b0;
+                    line-height: 40px;
+                    display: inline-block;
+                }
+                >.sep{
+                    margin: 0 .3em;
+                    color: #424242;
+                }
+            }
+            >.topbar-cart{
+                position: relative;
+                float: right;
+                width: 120px;
+                height: 40px;
+                margin-left: 15px;
+                -webkit-transition: all .2s;
+                transition: all .2s;
+                font-size: 12px;
+                >.cart-mini{
+                    position: relative;
+                    z-index: 32;
+                    display: block;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    color: #b0b0b0;
+                    background: #424242;
+                }
+            }
+            >.topbar-info{
+                position: relative;
+                float: right;
+                height: 40px;
+                line-height: 40px;
+                >a{
+                    color: #b0b0b0;
+                    line-height: 40px;
+                    // display: inline-block;
+                    padding: 0 1px;
+                    text-align: center;
+                    float: left;
+                }
+                >.sep{
+                    margin: 0 .3em;
+                    color: #424242;
+                    float: left;
+                }
+                >.massage{
+                    float: left;
+                    padding: 0 10px;
+                    >a{
+                        color: #b0b0b0;
+                        line-height: 40px;
+                        display: inline-block;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+    >.site-header{
+        position: relative;
+        z-index: 20;
+        height: 100px;
+        .container{
+            position: relative;
+            >.header-logo{
+                float: left;
+                width: 62px;
+                margin-top: 22px;
+                >.logo{
+                    position: relative;
+                    display: block;
+                    width: 55px;
+                    height: 55px;
+                    overflow: hidden;
+                    background-color: #ff6700;
+                    text-align: left;
+                    text-indent: -9999em;
+                }
+                >.logo::before,.logo::after{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    z-index: 1;
+                    width: 55px;
+                    height: 55px;
+                    content: "";
+                    transform-origin: 50% 50%;
+                    transition: all .2s;
+                    transform: translateZ(0);
+                }
+                >.logo::before{
+                    background: url(https://s02.mifile.cn/assets/static/image/mi-logo.png) no-repeat 50% 50%;
+                    opacity: 1;
+                }
+                >.logo::after{
+                    background: url(https://s02.mifile.cn/assets/static/image/mi-home.png) no-repeat 50% 50%;
+                    opacity: 0;
+                    margin-left: -55px;
+                }
+                >.logo:hover::before,.logo:hover::after{
+                    transform: translate3d(55px,0,0);
+                }
+                >.logo:hover::after{
+                    opacity: 1;
+                }
+            }
+            >.header-nav{
+                float: left;
+                width: 850px;
+                >.nav-list{
+                    position: relative;
+                    z-index: 10;
+                    float: left;
+                    width: 1100px;
+                    height: 88px;
+                    margin: 0;
+                    padding: 12px 0 0 30px;
+                    list-style-type: none;
+                    font-size: 16px;
+                    >.nav-item{
+                        float: left;
+                        >.link{
+                            display: block;
+                            padding: 26px 10px 38px;
+                            color: #333;
+                            transition: color .2s;
+                        }
+                    }
+                    >.nav-category{
+                        position: relative;
+                        float: left;
+                        width: 127px;
+                        padding-right: 15px;
+                        >.site-category{
+                            position: absolute;
+                            top: 88px;
+                            left: -92px;
+                            z-index: 21;
+                            width: 234px;
+                            height: 460px;
+                            font-size: 14px;
+                            >.site-category-list{
+                                height: 420px;
+                                border: 0;
+                                color: #fff;
+                                background: rgba(105,101,101,.6);
+                                margin: 0;
+                                padding: 20px 0;
+                                list-style-type: none;
+                                >.category-item{
+                                    >.title{
+                                        position: relative;
+                                        display: block;
+                                        padding-left: 30px;
+                                        height: 42px;
+                                        line-height: 42px;
+                                    }
+                                }
+                                >.category-item:hover{
+                                    background-color: #ff6700;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            >.header-search{
+                float: right;
+                width: 296px;
+                margin-top: 25px;
+                >.search-form{
+                    position: relative;
+                    width: 296px;
+                    height: 50px;
+                    z-index: 20;
+                    >.search-text{
+                        box-sizing: content-box;
+                        position: absolute;
+                        top: 0;
+                        border: 1px solid #e0e0e0;
+                        outline: 0;
+                        transition: all .2s;
+                        right: 51px;
+                        z-index: 1;
+                        width: 223px;
+                        height: 48px;
+                        padding: 0 10px;
+                        font-size: 14px;
+                        line-height: 48px;
+                        cursor: pointer;
+                    }
+                    >.search-btn{
+                        right: 0;
+                        z-index: 2;
+                        width: 50px;
+                        height: 48px;
+                        font-size: 18px;
+                        line-height: 24px;
+                        background: #fff;
+                        color: #616161;
+                        position: absolute;
+                        top: 0;
+                        border: 1px solid #e0e0e0;
+                        outline: 0;
+                        transition: all .2s;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }  
+    }
+}
+
+.home-hero-sub{
+    margin-top: 14px;
+    margin-left: -14px;
+    margin-bottom: 26px;
+    >.span4{
+        width: 234px;
+        float: left;
+        margin-left: 14px;
+        min-height: 1px;
+        >.home-channel-list{
+            margin: 0;
+            padding: 3px;
+            list-style-type: none;
+            font-size: 12px;
+            text-align: center;
+            background: #5f5750;
+            >li{
+                position: relative;
+                float: left;
+                width: 70px;
+                height: 82px;
+                padding: 0 3px;
+                >a{
+                    display: block;
+                    padding-top: 18px;
+                    text-overflow: ellipsis;
+                    color: #fff;
+                    opacity: .7;
+                    transition: opacity .2s;
+                    >img{
+                        display: block;
+                        width: 24px;
+                        height: 24px;
+                        margin: 0 auto 4px;
+                    }
+                }
+            }
+            >li::before{
+                top: -1px;
+                left: 6px;
+                width: 64px;
+                height: 1px;
+                position: absolute;
+                content: "";
+                background: #665e57;
+            }
+            >li::after{
+                top: 6px;
+                left: 0;
+                width: 1px;
+                height: 70px;
+                position: absolute;
+                content: "";
+                background: #665e57;
+            }
+        }
+    }
+    >.span16{
+        width: 978px;
+        float: left;
+        margin-left: 14px;
+        min-height: 1px;
+        >.home-promo-list{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            >.first{
+                margin-left: 0;
+            }
+            >li{
+                float: left;
+                width: 316px;
+                height: 170px;
+                margin-left: 15px;
+                >a{
+                    display: block;
+                    height: 170px;
+                    >img{
+                        display: block;
+                        width: 316px;
+                        height: 170px;
+                    }
+                }
+            }
+        }
+    }
+}

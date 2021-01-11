@@ -1,0 +1,43 @@
+@charset 'utf-8';
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: content-box;
+}
+body {
+  font: 14px/1.5 Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+  color: #333;
+  background-color: #fff;
+  min-width: 1226px;
+}
+li {
+  list-style-type: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+img {
+  border: 0px;
+}
+h3 {
+  line-height: 21px;
+}
+.container {
+  width: 1226px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px;
+}
+.site-header .nav-category .link-category {
+  display: block;
+  padding: 26px 0 38px;
+  text-align: right;
+  color: #333;
+  visibility: hidden;
+}

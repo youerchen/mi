@@ -1,0 +1,648 @@
+@charset 'utf-8';
+
+.page-main{
+    padding-top: 4px;
+    padding-bottom: 12px;
+    background: #f5f5f5;
+    .home-flashsale{
+        margin-bottom: 22px;
+        position: relative;
+        >.box-hd{
+            position: relative;
+            height: 58px;
+            // -webkit-font-smoothing: antialiased;
+            >.title{
+                margin: 0;
+                font-size: 22px;
+                font-weight: 200;
+                line-height: 58px;
+                color: #333;
+            }
+        }
+        >.box-bd{
+            >.row{
+                margin-left: -14px;
+                >.rainbow-item-4{
+                    border-top-color: #e53935;
+                    height: 300px;
+                    padding-top: 39px;
+                    border-top-width: 1px;
+                    border-top-style: solid;
+                    background: #f1eded;
+                    text-align: center;
+                    width: 234px;
+                    float: left;
+                    margin-left: 14px;
+                    min-height: 1px;
+                    >.round{
+                        font-size: 21px;
+                        color: #ef3a3b;
+                        padding-top: 15px;
+                    }
+                    >img{
+                        margin: 25px auto;
+                    }
+                    >.desc{
+                        color: rgba(0,0,0,.54);
+                        font-size: 15px;
+                    }
+                    >.countdown{
+                        width: 168px;
+                        margin: 28px auto 0;
+                        >span{
+                            width: 46px;
+                            height: 46px;
+                            background: #605751;
+                            color: #fff;
+                            font-size: 24px;
+                            line-height: 46px;
+                            float: left;
+                        }
+                        >i{
+                            width: 15px;
+                            float: left;
+                            height: 46px;
+                            line-height: 46px;
+                            color: #605751;
+                            font-size: 28px;
+                            font-style: normal;
+                        }
+                    }
+                }
+                >.flashsale-list{
+                    float: left;
+                    width: 978px;
+                    margin-left: 14px;
+                    min-height: 1px;
+                    margin: 0 auto;
+                    position: relative;
+                    overflow: hidden;
+                    list-style: none;
+                    margin-left: 14px;
+                    min-height: 1px;
+                    padding: 0;
+                    z-index: 1;
+                    >.swiper-wrapper{
+                        margin: 0;
+                        padding: 0;
+                        height: 340px;
+                        position: relative;
+                        width: 100%;
+                        height: 100%;
+                        z-index: 1;
+                        display: flex;
+                        transition-property: transform,-webkit-transform;
+                        box-sizing: content-box;
+                        >.swiper-slide{
+                            width: 234px;
+                            margin-right: 14px;
+                            border-top-width: 1px;
+                            border-top-style: solid;
+                            text-align: center;
+                            background: #fff;
+                            transition: all .6s;
+                            position: relative;
+                            list-style: none;
+                            flex-shrink: 0;
+                            height: 100%;
+                            >a{
+                                display: block;
+                                height: 300px;
+                                padding-top: 39px;
+                                position: relative;
+                                .thumb{
+                                    display: block;
+                                    width: 160px;
+                                    margin: 0 auto 22px;
+                                    >img{
+                                        width: 160px;
+                                        height: 160px;
+                                    }
+                                }
+                                .title{
+                                    margin: 0 20px 3px;
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    text-overflow: ellipsis;
+                                    color: #212121;
+                                    overflow: hidden;
+                                    white-space: nowrap;
+                                }
+                                .desc{
+                                    height: 18px;
+                                    margin: 0 20px 12px;
+                                    font-size: 12px;
+                                    text-overflow: ellipsis;
+                                    color: #b0b0b0;
+                                    overflow: hidden;
+                                    white-space: nowrap;
+                                }
+                                .price{
+                                    margin: 0;
+                                    color: #ff6709;
+                                    >del{
+                                        color: #b0b0b0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                >.swiper-controls{
+                    position: absolute;
+                    right: 0;
+                    top: 24px;
+                    font-size: 0px;
+                    >.swiper-flashsale-prev,.swiper-flashsale-next{
+                        color: #e0e0e0;
+                        cursor: default;
+                        display: inline-block;
+                        width: 24px;
+                        height: 16px;
+                        padding: 3px 5px;
+                        margin-left: -1px;
+                        border: 1px solid #e0e0e0;
+                        font-size: 14px;
+                        line-height: 16px;
+                        -webkit-transition: color .5s;
+                        transition: color .5s;
+                        color: #b0b0b0;
+                        text-align: center;
+                        cursor: pointer;
+                        >i{
+                            font-style: normal;
+                            // font-weight: 900;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .home-banner-box{
+        height: 120px;
+        margin: 22px 0;
+        overflow: hidden;
+        img{
+            width: 1226px;
+            height: 120px;
+        }
+    }
+
+    .home-brick-box{
+        margin-bottom: 8px;
+        >.box-hd{
+            position: relative;
+            height: 58px;
+            -webkit-font-smoothing: antialiased;
+            >.title{
+                margin: 0;
+                font-size: 22px;
+                font-weight: 200;
+                line-height: 58px;
+                color: #333;
+            }
+            >.more{
+                position: absolute;
+                top: 0;
+                right: 0;
+                font-size: 0px;
+                >.more-link{
+                    font-size: 16px;
+                    line-height: 58px;
+                    color: #424242;
+                    -webkit-transition: all .4s;
+                    transition: all .4s;
+                    >.glyphicon{
+                        width: 12px;
+                        height: 12px;
+                        padding: 4px;
+                        margin-left: 8px;
+                        border-radius: 16px;
+                        font-size: 12px;
+                        line-height: 12px;
+                        background: #b0b0b0;
+                        color: #fff;
+                        vertical-align: 1px;
+                        -webkit-transition: all .4s;
+                        transition: all .4s;
+                        font-style: normal;
+                    }
+                }
+            }
+        }
+        >.box-bd{
+            >.row{
+                margin-left: -14px;
+                >.span4{
+                    width: 234px;
+                    float: left;
+                    margin-left: 14px;
+                    min-height: 1px;
+                   >.brick-promo-list{
+                        margin: 0 0 -14px -14px;
+                        height: 614px;
+                        padding: 0;
+                        list-style-type: none;
+                       >.brick-item-l{
+                        height: 614px;
+                        position: relative;
+                        z-index: 1;
+                        float: left;
+                        width: 234px;
+                        margin-left: 14px;
+                        margin-bottom: 14px;
+                        background: #fff;
+                        -webkit-transition: all .2s linear;
+                        transition: all .2s linear;
+                        >a{
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                            >img{
+                                height: 614px;
+                                width: 234px;
+                            }
+                        }
+                       }
+                   }
+                }
+                >.span16{
+                    width: 978px;
+                    float: left;
+                    margin-left: 14px;
+                    min-height: 1px;
+                    >.brick-list{
+                        margin: 0 0 -14px -14px;
+                        width: 992px;
+                        height: 614px;
+                        padding: 0;
+                        list-style-type: none;
+                        >.brick-item-m-2{
+                            height: 260px;
+                            padding: 20px 0;
+                            position: relative;
+                            z-index: 1;
+                            float: left;
+                            width: 234px;
+                            margin-left: 14px;
+                            margin-bottom: 14px;
+                            background: #fff;
+                            -webkit-transition: all .2s linear;
+                            transition: all .2s linear;
+                            .figure-img{
+                                width: 160px;
+                                height: 160px;
+                                margin: 0 auto 18px;
+                                >img{
+                                    width: 160px;
+                                    height: 160px;
+                                }
+                            }
+                            .title{
+                                margin: 0 10px 2px;
+                                text-align: center;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                                overflow: hidden;
+                                font-size: 14px;
+                                font-weight: 400;
+                                color: #333;
+                            }
+                            .desc{
+                                margin: 0 10px 10px;
+                                height: 18px;
+                                font-size: 12px;
+                                color: #b0b0b0;
+                                text-align: center;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                                overflow: hidden;
+                            }
+                            .price{
+                                margin: 0 10px 14px;
+                                text-align: center;
+                                color: #ff6700;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .home-brick-tab{
+        margin-bottom: 8px;
+        >.box-hd{
+            position: relative;
+            height: 58px;
+            -webkit-font-smoothing: antialiased;
+            >.title{
+                margin: 0;
+                font-size: 22px;
+                font-weight: 200;
+                line-height: 58px;
+                color: #333;
+            }
+            >.more{
+                position: absolute;
+                top: 0;
+                right: 0;
+                font-size: 0px;
+                >.tab-list{
+                    margin: 0;
+                    padding: 16px 0 0;
+                    list-style-type: none;
+                    font-size: 16px;
+                    >.tab-active{
+                        color: #ff6700;
+                        border-bottom: 2px solid #ff6700;
+                    }
+                    >li{
+                        margin: 0 0 0 30px;
+                        display: inline-block;
+                        padding: 0;
+                        transition: border .3s;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        >.box-bd{
+            >.row{
+                >.span4{
+                    width: 234px;
+                    float: left;
+                    margin-left: 14px;
+                    min-height: 1px;
+                   >.brick-promo-list{
+                        margin: 0 0 -14px -14px;
+                        height: 614px;
+                        padding: 0;
+                        list-style-type: none;
+                       >.brick-item-m{
+                        height: 300px;
+                        padding: 0;
+                        position: relative;
+                        z-index: 1;
+                        float: left;
+                        width: 234px;
+                        margin-left: 14px;
+                        margin-bottom: 14px;
+                        background: #fff;
+                        -webkit-transition: all .2s linear;
+                        transition: all .2s linear;
+                        >a{
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                            >img{
+                                height: 300px;
+                                width: 234px;
+                            }
+                        }
+                       }
+                    }
+                }
+                >.span16{
+                    width: 978px;
+                    float: left;
+                    margin-left: 14px;
+                    min-height: 1px;
+                    >.brick-list{
+                        margin: 0 0 -14px -14px;
+                        width: 992px;
+                        height: 614px;
+                        padding: 0;
+                        list-style-type: none;
+                        >.brick-item-m-2{
+                            height: 260px;
+                            padding: 20px 0;
+                            position: relative;
+                            z-index: 1;
+                            float: left;
+                            width: 234px;
+                            margin-left: 14px;
+                            margin-bottom: 14px;
+                            background: #fff;
+                            -webkit-transition: all .2s linear;
+                            transition: all .2s linear;
+                            .figure-img{
+                                width: 160px;
+                                height: 160px;
+                                margin: 0 auto 18px;
+                                >img{
+                                    width: 160px;
+                                    height: 160px;
+                                }
+                            }
+                            .title{
+                                margin: 0 10px 2px;
+                                text-align: center;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                                overflow: hidden;
+                                font-size: 14px;
+                                font-weight: 400;
+                                color: #333;
+                            }
+                            .desc{
+                                margin: 0 10px 10px;
+                                height: 18px;
+                                font-size: 12px;
+                                color: #b0b0b0;
+                                text-align: center;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                                overflow: hidden;
+                            }
+                            .price{
+                                margin: 0 10px 14px;
+                                text-align: center;
+                                color: #ff6700;
+                            }
+                        }
+                        >.brick-item-s{
+                            height: 93px;
+                            padding-top: 50px;
+                            position: relative;
+                            z-index: 1;
+                            float: left;
+                            width: 234px;
+                            margin-left: 14px;
+                            margin-bottom: 14px;
+                            background: #fff;
+                            -webkit-transition: all .2s linear;
+                            transition: all .2s linear;
+                            .figure-img{
+                                position: absolute;
+                                right: 20px;
+                                top: 32px;
+                                width: 80px;
+                                height: 80px;
+                                >img{
+                                    width: 80px;
+                                    height: 80px;
+                                }
+                            }
+                            .title{
+                                margin: -10px 110px 5px 30px;
+                                font-size: 14px;
+                                font-weight: 400;
+                                color: #333333;
+                            }
+                            .price{
+                                margin: 0 110px 0 30px;
+                                font-size: 12px;
+                                color: #ff6700;
+                                >.num{
+                                    font-size:14px;
+                                }
+                            }
+                            .figure-more{
+                                position: absolute;
+                                right: 35px;
+                                top: 48px;
+                                width: 48px;
+                                height: 48px;
+                                color: #ff6700;
+                                i{
+                                    font-size: 48px;
+                                    line-height: 48px;
+                                }
+                            }
+                            .more{
+                                display: block;
+                                margin: 0 110px 0 30px;
+                                font-size: 18px;
+                                color: #333;
+                                >small{
+                                    display: block;
+                                    font-size: 12px;
+                                    color: #757575;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .home-video-box{
+        margin-bottom: 8px;
+        >.box-hd{
+            position: relative;
+            height: 58px;
+            -webkit-font-smoothing: antialiased;
+            >.title{
+                margin: 0;
+                font-size: 22px;
+                font-weight: 200;
+                line-height: 58px;
+                color: #333;
+            }
+            >.more{
+                position: absolute;
+                top: 0;
+                right: 0;
+                font-size: 0px;
+                >.more-link{
+                    font-size: 16px;
+                    line-height: 58px;
+                    color: #424242;
+                    -webkit-transition: all .4s;
+                    transition: all .4s;
+                    >.glyphicon{
+                        width: 12px;
+                        height: 12px;
+                        padding: 4px;
+                        margin-left: 8px;
+                        border-radius: 16px;
+                        font-size: 12px;
+                        line-height: 12px;
+                        background: #b0b0b0;
+                        color: #fff;
+                        vertical-align: 1px;
+                        -webkit-transition: all .4s;
+                        transition: all .4s;
+                        font-style: normal;
+                    }
+                }
+            }
+        }
+        >.box-bd{
+            >.video-list{
+                width: 1240px;
+                height: 285px;
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+                >.video-item:first-child {
+                    margin-left: 0;
+                }
+                >.video-item{
+                    position: relative;
+                    float: left;
+                    width: 296px;
+                    height: 285px;
+                    margin-left: 14px;
+                    margin-bottom: 14px;
+                    text-align: center;
+                    background: #fff;
+                    -webkit-transition: all .2s linear;
+                    transition: all .2s linear;
+                    .figure-img{
+                        position: relative;
+                        width: 296px;
+                        height: 180px;
+                        margin: 0 0 28px;
+                        >img{
+                            width:296px;
+                            height:180px;
+                        }
+                        >.play{
+                            position: absolute;
+                            left: 20px;
+                            bottom: 10px;
+                            width: 32px;
+                            height: 20px;
+                            border: 2px solid #fff;
+                            border-radius: 12px;
+                            background-color: rgba(0,0,0,.6);
+                            color: #fff;
+                            -webkit-transition: all .2s;
+                            transition: all .2s;
+                            overflow: hidden;
+                            >i{
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                    .figure-img:hover >.play{
+                        background-color:#ff6700;
+                        border: 2px solid #ff6700;
+                    }
+                    .title{
+                        margin: 0 14px 6px;
+                        font-size: 14px;
+                        font-weight: 400;
+                        text-align: center;
+                        color: #333;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                    }
+                    .desc{
+                        height: 18px;
+                        margin: 0 14px;
+                        font-size: 12px;
+                        color: #b0b0b0;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                    }
+                }
+            }
+        }
+    }
+}
