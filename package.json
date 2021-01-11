@@ -8,5 +8,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "小米界面",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youerchen/mi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/youerchen/mi/issues"
+  },
+  "homepage": "https://github.com/youerchen/mi#readme"
 }
