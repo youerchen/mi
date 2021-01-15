@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/mi_register.css" />
+    <script src="../js/mi_register.js" type="module"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="logo">
+        <a href="#"></a>
+      </div>
+      <div class="title">
+        <h4>注册小米帐号</h4>
+      </div>
+      <!-- 注册界面 -->
+      <div class="regbox">
+        <form action="../../interface/reg.php" method="POST">
+          <div class="form-group">
+            <label>用户名</label>
+            <input
+              type="Username"
+              name="username"
+              class="form-control"
+              id="user"
+              placeholder="用户名"
+            />
+            <span id="userNameSp"></span>
+          </div>
+          <div class="form-group">
+            <label>密码</label>
+            <input
+              type="password"
+              name="password"
+              class="form-control"
+              id="pwd"
+              placeholder="密码"
+            />
+            <span id="userPwdSp"></span>
+          </div>
+          <div class="form-group">
+            <label>确认密码</label>
+            <input
+              type="password"
+              name="hasPwd"
+              class="form-control"
+              id="haspwd"
+              placeholder="确认密码"
+            />
+            <span id="confirmPwdSp"></span>
+          </div>
+          <div class="form-group">
+            <label>手机号</label>
+            <input
+              type="text"
+              name="phone"
+              class="form-control"
+              id="phoneNum"
+              placeholder="手机号"
+            />
+            <span id="phoneNameSp"></span>
+          </div>
+          <button type="submit" id="btn-submit">立即注册</button>
+          <!-- 信息 -->
+          <div class="msg">
+            <label>
+              已阅读并同意：小米
+              <a href="#">用户协议</a>和<a href="#"> 隐私政策 </a>
+            </label>
+          </div>
+        </form>
+      </div>
+    </div>
+     <!-- footer -->
+     <div class="footer">
+      <div class="nf-link-area ">
+        <ul class="lang-select-list">
+          <li>
+            <a
+              href="#"
+
+              >简体</a
+            >|
+          </li>
+          <li>
+            <a
+              href="#"
+              >繁体</a
+            >|
+          </li>
+          <li>
+            <a
+              href="#"
+
+              >English</a
+            >|
+          </li>
+          <li>
+            <a href="#" 
+              >常见问题</a
+            >|
+          </li>
+          <li>
+            <a id="#" href="/about/protocol/privacy" 
+              >隐私政策</a
+            >
+          </li>
+        </ul>
+      </div>
+      <p class="nf-intro">
+        小米公司版权所有-京ICP备10046444-<a
+
+          href="#"
+          ><span
+            ><img
+              src="https://account.xiaomi.com/static/res/9204d06/account-static/respassport/acc-2014/img/ghs.png" /></span
+          >京公网安备11010802020134号</a
+        >-京ICP证110507号
+      </p>
+    </div>
+  </body>
+</html>

@@ -322,6 +322,11 @@
   text-align: center;
   color: #ff6700;
 }
+.page-main .home-brick-box > .box-bd > .row > .span16 > .brick-list > .brick-item-m-2:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  transform: translate3d(0, -2px, 0);
+}
 .page-main .home-brick-tab {
   margin-bottom: 8px;
 }
@@ -453,6 +458,11 @@
   margin: 0 10px 14px;
   text-align: center;
   color: #ff6700;
+}
+.page-main .home-brick-tab > .box-bd > .row > .span16 > .brick-list > .brick-item-m-2:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  transform: translate3d(0, -2px, 0);
 }
 .page-main .home-brick-tab > .box-bd > .row > .span16 > .brick-list > .brick-item-s {
   height: 93px;
