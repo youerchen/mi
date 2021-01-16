@@ -85,5 +85,12 @@ window.onload=function(){
         result.every(function(val){
             return val==true;
         })?btn.removeAttribute('disabled'):btn.setAttribute('disabled',true);
+        if(result.every(function(val){return val==true;})){
+            btn.removeAttribute('disabled');
+            btn.style.backgroundColor="#ff6700";
+        }else{
+            btn.setAttribute('disabled',true);
+            btn.style.backgroundColor="#999999";
+        }
     };
 };

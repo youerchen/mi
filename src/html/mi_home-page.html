@@ -6,7 +6,11 @@
     <title>Document</title>
     <script src="../js/index.js" type="module"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/mi_public.css">
+    <link rel="stylesheet" href="../css/mi_home-page.css">
+    <link rel="stylesheet" href="../css/mi_main.css">
+    <link rel="stylesheet" href="../css/mi_footer.css">
+    <link rel="stylesheet" href="../font/font_rj61sa4u0cn/iconfont.css">
 </head>
 <body>
     <div class="header">
@@ -214,20 +218,61 @@
                     </form>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <!-- <div class="home-hero-container container">
-        <div class="home-hero">
-            <div class="swiper-container home-hero-swiper swiper-no-swiping swiper-container-fade swiper-container-initialized swiper-container-horizontal">
-                <div class="swiper-wrapper" style="transition-duration: 0ms;">
-                    <div class="swiper-slide swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev">
-
-                    </div>
+            <!-- 二级导航 -->
+            <div class="header-nav-menu slide-up">
+                <div class="container">
+                    <ul class="children-list ">
+                        <li>
+                            <a href="#">
+                                <div class="figure figure-thumb">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/963679eaf3937351e154600ab3448460.png?thumb=1&w=160&h=110&f=webp&q=90" alt="">
+                                    <div class="title">小米11</div>
+                                    <p class="price">3999起</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="figure figure-thumb">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/963679eaf3937351e154600ab3448460.png?thumb=1&w=160&h=110&f=webp&q=90" alt="">
+                                    <div class="title">小米11</div>
+                                    <p class="price">3999起</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="figure figure-thumb">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/963679eaf3937351e154600ab3448460.png?thumb=1&w=160&h=110&f=webp&q=90" alt="">
+                                    <div class="title">小米11</div>
+                                    <p class="price">3999起</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="figure figure-thumb">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/963679eaf3937351e154600ab3448460.png?thumb=1&w=160&h=110&f=webp&q=90" alt="">
+                                    <div class="title">小米11</div>
+                                    <p class="price">3999起</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="figure figure-thumb">
+                                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/963679eaf3937351e154600ab3448460.png?thumb=1&w=160&h=110&f=webp&q=90" alt="">
+                                    <div class="title">小米11</div>
+                                    <p class="price">3999起</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
+
     <!-- 轮播图 -->
     <div class="container">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -386,11 +431,11 @@
                             7x4iTALjhcgVQSIl3v87w5vePcY/AQYAFYR6skFSqBUAAAAASUVORK5CYII=" alt="">
                             <div class="desc">距离开始还有</div>
                             <div class="countdown clearfix">
-                                <span>08</span>
+                                <span id='hour'>08</span>
                                 <i>:</i>
-                                <span>33</span>
+                                <span id="minute">33</span>
                                 <i>:</i>
-                                <span>12</span>
+                                <span id="second">12</span>
                             </div>
                         </div>
                         <div class="span16 flashsale-list swiper-container swiper-no-swiping swiper-container-initialized swiper-container-horizontal">
@@ -1068,19 +1113,19 @@
                 <ul class="list-service clearfix">
                     <li>
                         <a href="#">
-                            <em class="glyphicon glyphicon-wrench"></em>
+                            <em class="iconfont icon-buoumaotubiao46"></em>
                             预约维修服务
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <em class="glyphicon glyphicon-wrench"></em>
+                            <em class="iconfont icon-7tiantuihuanhuo"></em>
                             7天无理由退货
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <em class="glyphicon glyphicon-wrench"></em>
+                            <em class="iconfont icon-15tianwuliyoutuihuo"></em>
                             15天免费换货
                         </a>
                     </li>
@@ -1282,6 +1327,54 @@
             </div>
         </div>
         <div class="slogan ir"></div>
+    </div>
+    <div class="home-tool-bar">
+        <a>
+            <div class="icon">
+                <img src="https://i8.mifile.cn/b2c-mimall-media/98a23aae70f25798192693f21c4d4039.png" alt="" class="static">
+                <img src="https://i8.mifile.cn/b2c-mimall-media/74c4fcb4475af8308e9a670db9c01fdf.png" alt="" class="hover">
+            </div>
+            <span class="text">手机APP</span>
+            <div class="pop-content">
+                <img src="https://i8.mifile.cn/b2c-mimall-media/93650133310ec1c385487417a472a26c.png" alt="">
+                <span class="desc">扫码领取新人百元礼包</span>
+            </div>
+        </a>
+        <a>
+            <div class="icon">
+                <img src="https://i8.mifile.cn/b2c-mimall-media/55cad219421bee03a801775e7309b920.png" alt="" class="static">
+                <img src="https://i8.mifile.cn/b2c-mimall-media/41f858550f42eb1770b97faf219ae215.png" alt="" class="hover">
+            </div>
+            <span class="text">个人中心</span>
+        </a>
+        <a>
+            <div class="icon">
+                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/12eb0965ab33dc8e05870911b90f3f13.png" alt="" class="static">
+                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/95fbf0081a06eec7be4d35e277faeca0.png" alt="" class="hover">
+            </div>
+            <span class="text">售后服务</span>
+        </a>
+        <a>
+            <div class="icon">
+                <img src="https://i8.mifile.cn/b2c-mimall-media/4f036ae4d45002b2a6fb6756cedebf02.png" alt="" class="static">
+                <img src="https://i8.mifile.cn/b2c-mimall-media/5e9f2b1b0da09ac3b3961378284ef2d4.png" alt="" class="hover">
+            </div>
+            <span class="text">人工客服</span>
+        </a>
+        <a>
+            <div class="icon">
+                <img src="https://i8.mifile.cn/b2c-mimall-media/d7db56d1d850113f016c95e289e36efa.png" alt="" class="static">
+                <img src="https://i8.mifile.cn/b2c-mimall-media/692a6c3b0a93a24f74a29c0f9d68ec71.png" alt="" class="hover">
+            </div>
+            <span class="text">购物车</span>
+        </a>
+        <a href="#one">
+            <div class="icon">
+                <img src="https://i1.mifile.cn/f/i/2018/home/totop.png" alt="" class="static">
+                <img src="https://i1.mifile.cn/f/i/2018/home/totop_hover.png" alt="" class="hover">
+            </div>
+            <span class="text">回顶部</span>
+        </a>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>

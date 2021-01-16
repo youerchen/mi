@@ -250,6 +250,61 @@
   transition: all 0.2s;
   cursor: pointer;
 }
+.header > .site-header > .header-nav-menu {
+  display: none;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  z-index: 99999;
+  width: 100%;
+  border-top: 1px solid #e0e0e0;
+  background: #fff;
+  overflow: hidden;
+}
+.header > .site-header > .header-nav-menu .children-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 12px;
+}
+.header > .site-header > .header-nav-menu .children-list > li {
+  position: relative;
+  float: left;
+  width: 180px;
+  padding: 35px 12px 0;
+  text-align: center;
+}
+.header > .site-header > .header-nav-menu .children-list > li > a > .figure-thumb {
+  width: 160px;
+  height: 110px;
+  margin: 0 auto 16px;
+  text-align: center;
+}
+.header > .site-header > .header-nav-menu .children-list > li > a > .figure-thumb > img {
+  width: 160px;
+  height: 110px;
+}
+.header > .site-header > .header-nav-menu .children-list > li > a > .figure-thumb > .title {
+  margin: 0;
+  line-height: 20px;
+  color: #333;
+}
+.header > .site-header > .header-nav-menu .children-list > li > a > .figure-thumb > .price {
+  margin: 0;
+  line-height: 20px;
+  color: #ff6700;
+}
+.header > .site-header > .slide-up {
+  height: 0;
+}
+.header > .site-header > .slide-down {
+  height: 229px;
+}
+.header > .site-header > .ation {
+  display: block;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.18);
+  transition: all 0.3s;
+}
 .home-hero-sub {
   margin-top: 14px;
   margin-left: -14px;
